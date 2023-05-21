@@ -1,0 +1,31 @@
+10000:
+	Vector: 0.000020s
+	Vec: 0.000013s
+100000:
+	Vector: 0.000190s
+	Vec: 0.000118s
+1000000:
+	Vector: 0.004111s
+	Vec: 0.002602s
+10000000:
+	Vector: 0.057612s
+	Vec: 0.041893s
+10000000:
+	Vector: 0.518634s 46 reallocations
+	Vec: 0.308240s 27 reallocations
+
+Kursiokai 100000:
+	Vector:
+		Time: 0.709096s
+		Read time: 0.437634s
+		Split time: 0.016121s
+		Sort time: 0.067816s
+		File1 write time: 0.092978s
+		File2 write time: 0.094548s
+	Vec:
+		Time: 0.770304s
+		Read time: 0.490140s
+		Split time: 0.017096s
+		Sort time: 0.072152s
+		File1 write time: 0.096783s
+		File2 write time: 0.094133s
